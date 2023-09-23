@@ -54,7 +54,9 @@
       <section class="hero-section">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
+          <button type="button" class="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -540,5 +542,21 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open" data-modal>
+      <div class="modal">
+        <button class="modal-close" type="button" data-modal-close>X</button>
+        <form>
+          <label>Leave your contacts and we will call you back</label>
+          <label>Name<input type="name" name="username" /></label>
+          <label>Phone<input type="tel" name="phone" /></label>
+          <label>Email<input type="email" name="email" /></label>
+          <label
+            >Comment<input type="textarea" placeholder="Text input" rows="6" />
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
