@@ -675,7 +675,7 @@ placeholder {
 .input-privacy:checked + .label-user-privacy > .span-user-privacy {
     background-color: #404BBF;
     border: none;
-    fill: #FFFFFF;
+    fill: #F4F4FD;
 }
 
 .visually-hidden {
