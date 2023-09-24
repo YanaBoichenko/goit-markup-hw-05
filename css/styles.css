@@ -672,9 +672,10 @@ placeholder {
 }
 
 
-.input-privacy:checked+.privacy-icon {
-    background-color: #404bbf;
+.input-privacy:checked+.label-user-privacy>.privacy-icon {
+    background-color: #404BBF;
     border: none;
-    fill: #F4F4FD;
+    fill: #FFFFFF;
+    border-color: #404BBF;
 }
 
